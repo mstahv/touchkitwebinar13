@@ -16,7 +16,7 @@ import com.vaadin.ui.UI;
 /**
  * The UI's "main" class
  */
-@Widgetset("com.touchexample.mwh.gwt.AppWithThemeWidgetSet")
+@Widgetset("com.touchexample.mwh.gwt.AppWidgetSet")
 @Theme("touchkit")
 public class WorkHoursUI extends UI {
 

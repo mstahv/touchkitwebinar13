@@ -17,12 +17,12 @@ public class TestService {
 		WHService whService = new WHService();
 		
 		List<WorkEntry> workEntries = whService.getWorkEntries(new Date());
-		assertEquals(1, workEntries.size());
+		assertEquals(2, workEntries.size());
 		WorkEntry workEntry = new WorkEntry();
 		workEntry.setDate(new Date());
 		whService.saveOrPersist(workEntry);
 		workEntries = whService.getWorkEntries(new Date());
-		assertEquals(2, workEntries.size());
+		assertEquals(3, workEntries.size());
 		
 	}
 
