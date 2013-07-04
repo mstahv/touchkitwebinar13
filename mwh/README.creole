@@ -1,0 +1,3 @@
+= Mobile Work tracking example =
+
+This is a simple application to demonstrate TouchKit development in a short 1h webinar.

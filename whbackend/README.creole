@@ -1,0 +1,5 @@
+= WH Backend  =
+
+This is a simple JPA based "backend", built for demo purposes.
+
+
